@@ -1,0 +1,6 @@
+Agent_ID,Agent_Name,Timestamp,Image_Emotion,Audio_Emotion,Final_Emotion,Audio_File
+1,Mohamed-Makrani,2025-04-27 13:10:25,Neutral,Sad,Neutral,recordings\Mohamed-Makrani_1_20250427_131004.wav
+1,Hmimid,2025-04-27 13:41:56,Surprise,Surprise,Surprise,recordings\Hmimid_1_20250427_134138.wav
+3,MOHAMMED HMIMID,2025-04-27 13:43:52,Surprise,Happy,Surprise,recordings\MOHAMMED_HMIMID_3_20250427_134352.wav
+1,med,2025-05-16 19:24:20,Surprise,Happy,Surprise,recordings\med_1_20250516_192410.wav
+default_id,default_name,2025-05-16 19:46:56,Surprise,Surprise,Surprise,recordings\default_name_default_id_20250516_194649.wav

@@ -1,0 +1,21 @@
+ # Approche par ponderation temporelle (time-Weightes Approche):
+  - cette approche consiste a accorder plus de poids aux emotions detectess plus recemment , 
+  - au lieu de simplement compter les occcurances des emotions , tu leur attribues un poids en fonction de temps ecoule depuis leur detection,
+    cela signifie qu'une emotion detecte plus tot dans la conversation aura un poids plus faible que celle detecte plus recemment.
+
+# Approche par fenetre glissante (sliding window approch):
+ - cette aproche est similaire a l'approche de ponderation temporelle, mais elle utlise une fenetre de temps define 
+ - par exmple les dernires X secandes ou X frames ) pour determiner l'emotion dominante
+
+# Approche par seuil de frequence (Threshold frequence)
+ - das cette approche , tu choisis une emotion dominante uniquement si une emotion specfique depasse un certain seuil de frequence.
+ - tu peux decider qu'une emotion est dominante seulment sil elle detecte plus de 50% du temps durant une periode donne 
+
+# aproche par temperature de probabilite (temperature scaling):
+ - cette approche est base sur les probabilite produite par le model de deep learning , 
+   au lieu de prendre la classe predite avec la plus haute probalite , tu utlise un parmetre de temperature pour ajuster les predictions et rendre certaines classes plus probalite que 'ajuster
+
+# Approche par filtrage de bruit (Noise filtering):
+  - si tu as bq de detections errones ou d'emotion tres peu frequente , tu peux appliquer un filtrage pour ne conserver que les emotions detecte de maniere repete ou stabe 
+  - tu utliser un seuil pour determiner combien de fois une emotion doit etre detecte de maniere consectuves avant de la consider comme dominante.
+  
